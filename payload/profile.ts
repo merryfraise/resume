@@ -1,4 +1,4 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone, faRss } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/_sample.jpg';
@@ -10,38 +10,38 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Lorem ipsum',
-    small: '(LI)',
+    title: '손수빈',
+    small: '',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
-      link: '#',
+      title: 'shoutrawberry@gmail.com',
+      link: 'mailto:shoutrawberry@gmail.com',
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
+      title: '010-4408-4221',
       icon: faPhone,
       badge: true,
     },
     {
-      title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      title: 'https://github.com/merryfraise',
+      link: 'https://github.com/merryfraise',
       icon: faGithub,
     },
+    // {
+    //   link: 'https://www.facebook.com/iu.loen',
+    //   icon: faFacebook,
+    // },
     {
-      link: 'https://www.facebook.com/iu.loen',
-      icon: faFacebook,
-    },
-    {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
-      // icon: faRss,
-      icon: faYoutube,
+      title: 'https://merryfraise.tistory.com',
+      link: 'https://merryfraise.tistory.com',
+      icon: faRss,
+      // icon: faYoutube,
     },
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
+    title: '',
     icon: faBell,
   },
 };
