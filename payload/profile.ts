@@ -1,7 +1,7 @@
 import { faEnvelope, faPhone, faRss } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/_sample.jpg';
+import image from '../asset/subin.png';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
