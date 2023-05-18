@@ -40,10 +40,10 @@ const profile: IProfile.Payload = {
       // icon: faYoutube,
     },
   ],
-  notice: {
-    title: '',
-    icon: faBell,
-  },
+  // notice: {
+  //   title: '',
+  //   icon: faBell,
+  // },
 };
 
 export default profile;
