@@ -2,6 +2,7 @@ import { CSSProperties } from 'react';
 
 /** Style 추론을 위하여.. */
 type TStyleKey =
+  | 'violet'
   | 'blue'
   | 'gray'
   | 'global'
@@ -12,6 +13,10 @@ type TStyleKey =
   | 'skillKeywordBadge';
 
 export const Style: Record<TStyleKey, CSSProperties> = {
+  violet: {
+    color: '#7c73d3',
+  },
+
   blue: {
     color: '#3c78d8',
   },
