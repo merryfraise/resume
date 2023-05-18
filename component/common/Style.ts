@@ -14,7 +14,7 @@ type TStyleKey =
 
 export const Style: Record<TStyleKey, CSSProperties> = {
   violet: {
-    color: '#7c73d3',
+    color: '#726ac3',
   },
 
   blue: {
